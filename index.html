@@ -12,12 +12,15 @@
 <body>
 
     <div id="app">
-
+        <p></p>
         <div>
             <span>{{msg}}</span>
         </div>
-        <button @click="hello">click</button>
-        <input type="text" v-model="msg">
+        <button @click="hello">当值为数字的时候。点击我</button>
+        <p>在输入框中输入内容看看：
+            <input type="text" v-model="msg">
+        </p>
+
 
 
     </div>
