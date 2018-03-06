@@ -154,7 +154,7 @@ var Mvvc = function (conf) {
 
     }
     this.initDirective = function ($el) {
-        //检测指令
+        //检测指令asd
         var attrs = $el[0].attributes
         for (let i = 0; i < attrs.length; i++) {
             const attr = attrs[i];
